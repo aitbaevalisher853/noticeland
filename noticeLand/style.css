@@ -1,0 +1,154 @@
+.header {
+  margin: 0;
+}
+
+.container {
+  border: 1px solid gray;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+  margin: 40px;
+}
+.link {
+  color: black; /* Цвет обычной ссылки */
+  text-decoration: none; /* Убираем подчеркивание у ссылок */
+}
+.link:visited {
+  color: black; /* Цвет посещённой ссылки */
+}
+.link:hover {
+  color: gray; /* Цвет ссылки при наведении на нее курсора мыши */
+  text-decoration: underline; /* Добавляем подчеркивание */
+}
+
+.title {
+  color: gray;
+}
+.title-bar {
+  font-size: 20px;
+}
+.content {
+  margin: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.itm_bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.boxes {
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+}
+.wordPass {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.info {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.gridBoxes {
+  padding: 150px;
+}
+.grid-Boxes {
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px;
+}
+/* .box {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  width: 120px;
+  height: 30px;
+}
+
+.button_bar {
+  margin-left: 700px;
+} */
+.sguare {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.sguareBoxes {
+  display: grid;
+  grid-template-columns: 650px 650px;
+}
+.footer {
+  background-color: #141414;
+  height: 80vh;
+  color: white;
+}
+.guggaFoot {
+  margin: 30px;
+}
+.ptag {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  padding: 40px;
+}
+.Footlink {
+  text-decoration: none;
+  color: white;
+}
+.Footlinks {
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  margin-left: 30px;
+}
+.footTitle {
+  margin-left: 30px;
+  color: gray;
+}
+.inputContainer {
+  margin-left: 880px;
+}
+.colTitle {
+  color: gray;
+}
+.btn {
+  text-decoration: none;
+  color: white;
+}
+.navLink {
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+}
+.col1 {
+  width: 70px;
+  padding: 60px;
+}
+.col2 {
+  width: 70px;
+  padding: 60px;
+}
+.col3 {
+  width: 150px;
+  padding: 60px;
+}
+.submitBtn {
+  background: black;
+  width: 120px;
+  height: 50px;
+  text-decoration: none;
+  color: white;
+  border: none;
+}
+.input {
+  width: 320px;
+  height: 40px;
+}
